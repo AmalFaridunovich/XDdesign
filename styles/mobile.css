@@ -1,0 +1,139 @@
+.mobile{
+    display: none;
+}
+.m-cont{
+    padding: 0 20px;
+}
+.m-screen{
+    height: 100vh;
+    padding: 11px 20px 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(../Files/images/mobile/screen-1.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.m-screen::after{
+    position: absolute;
+    content: '';
+    width: 360px;
+    height: 440px;
+    background-image: url(../Files/images/mobile/bg-logo.png);
+    background-position: center;
+    background-size: cover;
+    opacity: 12%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+
+}
+
+.m-screen-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.m-screen-top-left{
+    font-size: 20px;
+    color: white;
+}
+.m-screen-top-right{
+    font-size: 14px;
+    font-style: italic;
+    color: white;
+}
+.m-screen-top-right img{
+    margin-left: 18px;
+}
+/* ----------------- */
+.m-screen-mid{
+    text-align: center;
+}
+/* --------------------- */
+.m-screen-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.m-screen-bottom-left p{
+    font-size: 14px;
+    font-style: italic;
+    margin-bottom: 3px;
+}
+.m-screen-bottom-left h2{
+    font-size: 20px;
+}
+.m-screen-bottom-left{
+    color: white;
+}
+.m-screen-call-wrap{
+    width: 56px;
+    height: 56px;
+    background-color: #EFB25690;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+.m-screen-item{
+    position: relative;
+    z-index: 10;
+}
+/* ------------------------ */
+.m-main{
+    background-color: black;
+    padding-bottom: 100px;
+}
+.m-about{
+    position: relative;
+    background-color: #E3A56750;
+    width: 137px;
+    height: 400px;
+    padding: 0 20px;
+    /* overflow: hidden; */
+}
+.m-about-overflow{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+}
+.m-about-num{
+    position: absolute;
+    width: 228px;
+    height: 225px;
+    background-image: url(../Files/images/mobile/m-number.png);
+    background-position: center;
+    background-size: cover;
+    left: 40%;
+    top: 50%;
+    z-index: 5;
+    transform: translate(-50%, -50%);
+
+}
+.m-about-wrap{
+    position: absolute;
+    z-index: 10;
+    width: 340px;
+    top: 138px;
+    
+}
+.m-about-title{
+    font-size: 14px;
+    margin-bottom: 2px;
+    color: white;
+}
+.m-about-heading{
+    font-size: 24px;
+    color: #E3A567;
+    margin-bottom: 23px;
+}
+.m-about-desc{
+    font-size: 15px;
+    color: #C2C2C2;
+}
